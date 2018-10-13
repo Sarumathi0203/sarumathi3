@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
 int value,i,sum=0,n;
 clrscr();
@@ -13,6 +13,6 @@ scanf("%d",&value);
 sum=sum+value;
 }
 printf("sum of the integers is=%d\n",sum);
-return 0;
+getch();
 }
 
